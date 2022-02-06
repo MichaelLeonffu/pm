@@ -9,12 +9,13 @@ backups, and works like you would expect it to...
 
 ...until you try to take a deeper look at it and get super confused.
 
-Specifically if you `Enter Time Machine` and you start to see files and
-folders that you thought you excluded. i.e I exclude my `~/Downloads` because
-they can be a large temp files, but when I check my Time Machine the files
-may still be there. Also another issue is: "What happens if I add a symbolic
-link or an alias?" Would Time Machine follow those as well and back those up?
-How can we know what Time Machine is backing up or not backing up.
+"Why are my excluded files showing up in Time Machine?" e.g I exclude my
+ `~/Downloads` because they can be a large temp files, but when I check my
+ Time Machine the files may still be there.
+
+"What happens if I add a symbolic link or an alias?" Would Time Machine follow
+those as well and back those up? How can we know what Time Machine is backing
+up or not backing up.
 
 ## Excluding files/folders
 
@@ -183,7 +184,5 @@ of the two other cases.
 
 ## Further readings
 
-- [Saving space on Time Machine]
-  (https://www.howtogeek.com/294600/save-space-on-your-time-machine-drive-by-excluding-these-folders-from-backups/)
-- [Exclusion debugging]
-  (https://apple.stackexchange.com/questions/405071/time-machine-is-not-excluding-downloads)
+- [Saving space on Time Machine](https://www.howtogeek.com/294600/save-space-on-your-time-machine-drive-by-excluding-these-folders-from-backups/)
+- [Exclusion debugging](https://apple.stackexchange.com/questions/405071/time-machine-is-not-excluding-downloads)
